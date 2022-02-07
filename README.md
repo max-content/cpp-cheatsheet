@@ -557,6 +557,7 @@ thread t1(pingPongFn, sharedMes);  // start example with 3 concurrent threads
 thread t2(pingPongFn, "pong");
 thread t3(pingPongFn, "boing");
 ```
+See here for more: https://www.tutorialspoint.com/cplusplus/cpp_multithreading.htm#:~:text=Advertisements,%2Dbased%20and%20thread%2Dbased.
 
 ## `future` (thread support library)
 ```cpp
@@ -574,3 +575,4 @@ future<int> fut =         // result of async function
 // do some other work 
 cout << fut.get();        // get result of async function. Wait if needed.
 ```
+
