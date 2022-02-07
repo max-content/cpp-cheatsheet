@@ -430,7 +430,7 @@ vector<int> b(a.begin(), a.end());  // b is copy of a
 vector<T> c(n, x);        // c[0]..c[n-1] init to x
 T d[10]; vector<T> e(d, d+10);      // e is initialized from d
 ```
-
+See for differences between Map and Array: https://www.geeksforgeeks.org/difference-between-array-and-map/
 ## `deque` (Array stack queue)
 
 `deque<T>` is like `vector<T>`, but also supports:
